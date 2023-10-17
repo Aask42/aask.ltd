@@ -1,0 +1,9 @@
+[submodule "themes/hugo-profile"]
+	path = themes/hugo-profile
+	url = https://github.com/gurusabarish/hugo-profile.git
+[submodule "blackburn"]
+	path = blackburn
+	url = https://github.com/yoshiharuyamashita/blackburn.git
+[submodule "themes/blackburn"]
+	path = themes/blackburn
+	url = https://github.com/yoshiharuyamashita/blackburn.git
