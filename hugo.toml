@@ -1,4 +1,4 @@
-baseURL = 'https://aask42.github.io'
+baseURL = 'https://aask.ltd'
 languageCode = 'en-us'
 title = "Aask's Homepage"
 theme = 'blackburn'
