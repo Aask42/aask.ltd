@@ -8,8 +8,6 @@ copyright = "&copy; 2023. All rights reserved."
 canonifyurls = true
 paginate = 10
 
-publishDir = "docs"
-
 [markup]
   defaultMarkdownHandler = 'goldmark'
 
