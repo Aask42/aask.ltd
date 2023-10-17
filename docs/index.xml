@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aask&#39;s Homepage</title>
+    <link>https://aask.ltd/</link>
+    <description>Recent content on Aask&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2023. All rights reserved.</copyright><atom:link href="https://aask.ltd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts Index</title>
+      <link>https://aask.ltd/post/</link>
+      <pubDate>Mon, 16 Oct 2023 21:36:31 -0500</pubDate>
+      
+      <guid>https://aask.ltd/post/</guid>
+      <description>First post This is my first post to this website woohoo! I know how to do things. </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://aask.ltd/about/</link>
+      <pubDate>Mon, 16 Oct 2023 21:32:09 -0500</pubDate>
+      
+      <guid>https://aask.ltd/about/</guid>
+      <description>Step 1. whoami? I&amp;rsquo;m Aask! Up to all the things that are fun and interesting. I created this website out of frustration of hackaday.io not being flexible enough. So I thought, instead of figuring out how to better use their services, why not learn an entire new technology stack called Hugo!
+Now I&amp;rsquo;m here, writing up this about me page, and eventually will get it hooked up through gitpages. Hopefully tonight and I&amp;rsquo;ll be able to delete this line.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://aask.ltd/contact/</link>
+      <pubDate>Mon, 16 Oct 2023 21:11:42 -0500</pubDate>
+      
+      <guid>https://aask.ltd/contact/</guid>
+      <description> First Name Last Name Email Powered by fabform.io
+Test </description>
+    </item>
+    
+  </channel>
+</rss>
