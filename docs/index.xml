@@ -8,12 +8,21 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2023. All rights reserved.</copyright><atom:link href="https://aask.ltd/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Drinkbot</title>
+      <link>https://aask.ltd/drinkbot/</link>
+      <pubDate>Tue, 17 Oct 2023 18:41:55 -0500</pubDate>
+      
+      <guid>https://aask.ltd/drinkbot/</guid>
+      <description>i&amp;rsquo;m a teapot</description>
+    </item>
+    
+    <item>
       <title>Posts Index</title>
       <link>https://aask.ltd/post/</link>
       <pubDate>Mon, 16 Oct 2023 21:36:31 -0500</pubDate>
       
       <guid>https://aask.ltd/post/</guid>
-      <description>First post This is my first post to this website woohoo! I know how to do things. </description>
+      <description>First post This is my first post to this website woohoo! I know how to do things. Senor Drinknstein Comes to LIFE Senor Drinknstein started with an idea to use peristaltic pumps to serve various beverages, and has become so much more. For DEF CON 30 we worked to create a system of hardware and firmware that would give the end user a memorable experience while serving them a unique drink in a unique way at a unique event around unique people.</description>
     </item>
     
     <item>
