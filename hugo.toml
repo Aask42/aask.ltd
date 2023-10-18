@@ -1,7 +1,7 @@
 baseURL = 'https://aask.ltd'
 languageCode = 'en-us'
 title = "Aask's Homepage"
-theme = 'blackburn'
+theme = 'hello-4s3ti'
 
 author = "Aask"
 copyright = "&copy; 2023. All rights reserved."
@@ -54,7 +54,7 @@ unsafe = true
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 4
-    url = "/contact/"
+    url = "/contact/"  
 
 [social]
   # Link your social networking accouns to the side menu
