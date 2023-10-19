@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="https://aask.ltd/favicon.ico">
+    
+    <link rel="stylesheet" href="https://aask.ltd/css/style.min.css">
+
+    <link rel="canonical" href="https://aask.ltd/barbot0/" />
+    <title>Drinkbot</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://aask.ltd">Aask&#39;s Homepage</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <i class='fa fa-home fa-fw'></i><a href="https://aask.ltd/" title="">Home</a>
+            </li><li>
+                <i class='fa fa-list fa-fw'></i><a href="https://aask.ltd/firstpost/" title="">First Post!</a>
+            </li><li>
+                <i class='fa fa-phone fa-fw'></i><a href="https://aask.ltd/barbot0/" title="">Barbot0</a>
+            </li><li>
+                <i class='fa fa-phone fa-fw'></i><a href="https://aask.ltd/contact/" title="">Contact</a>
+            </li><li>
+                <i class='fa fa-user fa-fw'></i><a href="https://aask.ltd/about/" title="">About</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Drinkbot</h1>
+        <div>
+                <time></time>
+            </div>
+    </header><h2 id="senor-drinknstein-comes-to-life">Senor Drinknstein Comes to LIFE</h2>
+<p>Senor Drinknstein started with an idea to use peristaltic pumps to serve various beverages, and has become so much more. For DEF CON 30 we worked to create a system of hardware and firmware that would give the end user a memorable experience while serving them a unique drink in a unique way at a unique event around unique people.</p>
+<p>Because this is a finished project and I am ~lazy~ efficient, I&rsquo;m going to type everything up here in most likely one go. GLHF, watch me for the changes and try to keep up.</p>
+<p>So it all started in the Winter of 2021 when one of my friends said &ldquo;Hey, I&rsquo;ve got this idea for a robot that serves drinks, it uses peristaltic pumps to move things around in a sanitary fashion&rdquo;. Full stop. Verbatim, I&rsquo;m sure that&rsquo;s how it went. Anyways, next thing we know we&rsquo;re testing flow rates with pumps and trying to figure out how we&rsquo;re going to bring this thing to life. For those of you who don&rsquo;t know what a peristaltic pump is, it&rsquo;s the same kind of pump used in medical facilities to move bodily fluids around.</p>
+<p><img src="https://aask.ltd/images/peristaltic.gif" width="100%" alt="https://www.animatedsoftware.com/pics/pumps/animperi.gif"></img>
+Figure 1. Model of how a peristaltic pump works</p>
+<p>Peristaltic Pump (from Internet Glossary of Pumps)</p>
+<p>As you can see above, we can use a silicone tube (our chosen food-grade material) to transport liquids from one location to another without ever touching the liquid. You can see how this would be helpful when moving around sticky things like juices and mixers, and even <em>gasp</em> alcoholic liquids! From this proof of concept, we had an idea of where to start.</p>
+<p><img src="https://aask.ltd/images/figure2.png" width="100%"></img>
+Figure 2. A picture of the relay we were testing on top of a custom 3d printed mount I designed for it in OpenSCADasdf</p>
+<p><img src="https://aask.ltd/images/figure3.png" width="100%"></img>
+Figure 3. Testing a couple of relays</p>
+<p><img src="https://aask.ltd/images/figure4.png" width="100%"></img>
+Figure 4. Testing a full mounting bracket for a Pi Pico with 5x of our relays</p>
+<p><img src="https://aask.ltd/images/figure5.png" width="100%"></img>
+Figure 5. Printing a board to support up to 12 relay-controlled devices</p>
+<p><img src="https://aask.ltd/images/figure6.png" width="100%"></img>
+Figure 6. Attempt at printing &lsquo;circuit board&rsquo; with melt-in-place pegs for all the components</p>
+<p><img src="https://aask.ltd/images/figure7.png" width="100%"></img>
+Figure 7. First prototype of Pi Pico mounted together with 12 relays using melt-in-place pegs</p>
+<p><img src="https://aask.ltd/images/figure8.png" width="100%"></img>
+Figure 8. First go at loading code on to the chosen screen for the robot</p>
+<p><img src="https://aask.ltd/images/figure9.png" width="100%"></img>
+Figure 9. First prototype housing for mounting 9 peristaltic pumps to one common chassis</p>
+<p><img src="https://aask.ltd/images/figure10.png" width="100%"></img>
+Figure 10. Proposed housing for all of the robot&rsquo;s guts</p>
+<p><img src="https://aask.ltd/images/figure11.png" width="100%"></img>
+Figure 11. Final print for one of the bot&rsquo;s peristaltic pumps. Yes it shifted mid print near the end, but I wasn&rsquo;t going to throw it away.</p>
+<p><img src="https://aask.ltd/images/figure12.png" width="100%"></img>
+Figure 12. Semi-final print of &ldquo;circuit board&rdquo; using melt-in-place pegs to seal parts down. This would come to be an issue as we needed to remove the parts at some point and you cannot do that without being desctuctive with this methodology.</p>
+<p><img src="https://aask.ltd/images/figure13.png" width="100%"></img>
+Figure 13. Errors on these LCDs are a lot of fun, here&rsquo;s one we got when we were adding animations to things!</p>
+<p><img src="https://aask.ltd/images/figure14.png" width="100%"></img>
+Figure 14. Screws hadn&rsquo;t come in yet so we used the pegs for now while finishing up the final designs</p>
+<p><img src="https://aask.ltd/images/figure15.png" width="100%"></img>
+Figure 15. First completed board before wiring everything up to the appropriate GPIO pins</p>
+<p><img src="https://aask.ltd/images/figure16.png" width="100%"></img>
+Figure 16. Wiring up the ratsnest of cabling! This is where our 3.3v relay cables start to show issues with randomly triggering the GPIO on their modules due to a grounding issue between the pins and the pi&rsquo;s ground. Not sure exactly what the issue was but will dive more in to that later. Fully wired up the 3.3V and 5V adjustible-voltage-limiters along with a 3.3v rail for powering all the relays. The 5v voltage-limiter is there to power the pi through VSYS</p>
+<p><img src="https://aask.ltd/images/figure17.png" width="100%"></img>
+Figure 17. Wiring the common ground for the push-buttons</p>
+<p><img src="https://aask.ltd/images/figure18.png" width="100%"></img>
+Figure 18. Pushbuttons all wired up!</p>
+<p><img src="https://aask.ltd/images/figure19.png" width="100%"></img>
+Figure 19. Things are starting to get messy with adding the buttons and screen to their proper pinouts</p>
+<p><img src="https://aask.ltd/images/figure20.png" width="100%"></img>
+Figure 20. The first test fit of the buttons, screen, pumps, and circuit-board inside of the LEGALLY ACQUIRED milk crate</p>
+<p><img src="image.png" alt="Alt text"></p>
+<h1>TO BE CONTINUED</h1></article>
+
+        </main><footer id="footer">
+    
+</footer>
+</body>
+</html>
