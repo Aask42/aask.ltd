@@ -1,7 +1,7 @@
 baseURL = 'https://aask.ltd'
 languageCode = 'en-us'
 title = "Aask's Homepage"
-theme = 'hello-4s3ti'
+theme = 'etch'
 
 author = "Aask"
 copyright = "&copy; 2023. All rights reserved."
@@ -39,22 +39,27 @@ unsafe = true
     identifier = "home"
     url = "/"
   [[menu.main]]
-    name = "Posts"
+    name = "First Post!"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 2
-    identifier = "post"
-    url = "/post/"
-  [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 3
-    identifier = "about"
-    url = "/about/"
+    identifier = "firstpost"
+    url = "/firstpost/"
   [[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 4
-    url = "/contact/"  
+    url = "/contact/"
+  [[menu.main]]
+    name = "Barbot0"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 3
+    url = "/barbot0/"  
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 5
+    identifier = "about"
+    url = "/about/"
 
 [social]
   # Link your social networking accouns to the side menu
