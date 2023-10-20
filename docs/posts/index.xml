@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aask&#39;s Homepage</title>
-    <link>https://aask.ltd/</link>
-    <description>Recent content on Aask&#39;s Homepage</description>
+    <title>Posts on Aask&#39;s Homepage</title>
+    <link>https://aask.ltd/posts/</link>
+    <description>Recent content in Posts on Aask&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2023. All rights reserved.</copyright>
     <lastBuildDate>Tue, 17 Oct 2023 18:41:55 -0500</lastBuildDate>
     
-	<atom:link href="https://aask.ltd/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aask.ltd/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     

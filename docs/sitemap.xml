@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://aask.ltd/barbot0/</loc>
+    <loc>https://aask.ltd/</loc>
     <lastmod>2023-10-17T18:41:55-05:00</lastmod>
   </url><url>
-    <loc>https://aask.ltd/firstpost/</loc>
+    <loc>https://aask.ltd/posts/barbot0/</loc>
+    <lastmod>2023-10-17T18:41:55-05:00</lastmod>
+  </url><url>
+    <loc>https://aask.ltd/posts/</loc>
+    <lastmod>2023-10-17T18:41:55-05:00</lastmod>
+  </url><url>
+    <loc>https://aask.ltd/posts/firstpost/</loc>
     <lastmod>2023-10-16T21:36:31-05:00</lastmod>
   </url><url>
     <loc>https://aask.ltd/about/</loc>
@@ -13,8 +19,6 @@
   </url><url>
     <loc>https://aask.ltd/contact/</loc>
     <lastmod>2023-10-16T21:11:42-05:00</lastmod>
-  </url><url>
-    <loc>https://aask.ltd/</loc>
   </url><url>
     <loc>https://aask.ltd/categories/</loc>
   </url><url>
