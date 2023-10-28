@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="https://aask.ltd/favicon.ico">
+    
+    <link rel="stylesheet" href="https://aask.ltd/css/style.min.css">
+
+    <link rel="canonical" href="https://aask.ltd/posts/medical_adapter/" />
+    <title>Medical_adapter</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://aask.ltd">Aask&#39;s Homepage</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <i class='fa fa-home fa-fw'></i><a href="https://aask.ltd/" title="">Home</a>
+            </li><li>
+                <i class='fa fa-phone fa-fw'></i><a href="https://aask.ltd/contact/" title="">Contact</a>
+            </li><li>
+                <i class='fa fa-user fa-fw'></i><a href="https://aask.ltd/about/" title="">About</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Medical_adapter</h1>
+        <div>
+                <time>October 27, 2023</time>
+            </div>
+    </header><h2 id="union-medico-autoinjector-adapter">Union Medico Autoinjector Adapter</h2>
+<p>One of the things I have to do regularly to maintain my health is take an injeciton intramuscularly once a week. While many are okay just doing this free hand, and others go in to their doctor&rsquo;s offices to get it done, I picked up a <a href="https://unionmedico.com/product-category/auto-injector-90/">Union Medico autoinjector</a>. It&rsquo;s actually pretty cool, it holds they filled-syringe and drops it in to the muscle at the same pressure every time. It wasn&rsquo;t super expensive, but has this limitation that it only takes one style of BD Luer-Lok syringe.</p>
+<p><img src="https://aask.ltd/images/auto_injector.png" style="width:100%"></img></p>
+<p>Sadly, my pharmacy is out of those syringes so I picked up a bunch in bulk off of Amazon. Unfortuantely, the Amazon product is too small for my auto-injector. Probably should have looked for one with a picture of the syringe on it but even then they don&rsquo;t have the correct style I need.</p>
+<p><img src="https://aask.ltd/images/syringe_box.png"  style="width:100%"></img></p>
+<p>To solve this problem, I turned to OpenSCAD, calipers, and my AnkerMake M5 with some PLA filament in the drybox. Let&rsquo;s get this thing designed! The design was really easy to  make, coming in at 10 lines of OpenSCAD and is going to save me a world of hurt not being able to actually take my medicine.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-openscad" data-lang="openscad"><span style="display:flex;"><span>translate([<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,shank_length]) difference(){
+</span></span><span style="display:flex;"><span>    cylinder(head_length, head_r, head_r);
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">#</span>cylinder(head_length, hull_r, hull_r);
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">#</span>cube([<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">8</span>,head_length]);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>difference(){
+</span></span><span style="display:flex;"><span>cylinder(shank_length,shank_r, shank_r);
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">#</span>cylinder(shank_length, hull_r, hull_r);
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">#</span>cube([<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">8</span>,shank_length]);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>When implemented in OpenSCAD this is what it looks like:</p>
+<p><img src="https://aask.ltd/images/openscad_screenshot.png" align="center"  style="width:100%;"></img></p>
+<p>Once designed, let&rsquo;s print it! After printing, you can see the new adapter part next to the syringe.</p>
+<p><img src="https://aask.ltd/images/autoinjector_with_syringe.png" style="width:100%"></img></p>
+<p>It fits in to the autoinjector, success!</p>
+<p><img src="https://aask.ltd/images/adapter_test_fit.png"  style="width:100%"></img></p>
+<p>And makes a NICE snapping sound when clicking in to place, as well as comes off easily after use.</p>
+<p><img src="https://aask.ltd/images/adapter_with_syringe_in_autoinjector.png"  style="width:100%"></img></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This was a really simple solution to a problem I had in my life</p>
+</article>
+
+        </main><footer id="footer">
+    
+</footer>
+</body>
+</html>
