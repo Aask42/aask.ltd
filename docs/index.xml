@@ -20,11 +20,11 @@
       
       <guid>https://aask.ltd/posts/medical_adapter/</guid>
       <description>&lt;h2 id=&#34;union-medico-autoinjector-adapter&#34;&gt;Union Medico Autoinjector Adapter&lt;/h2&gt;
-&lt;p&gt;One of the things I have to do regularly to maintain my health is take an injeciton intramuscularly once a week. While many are okay just doing this free hand, and others go in to their doctor&amp;rsquo;s offices to get it done, I picked up a &lt;a href=&#34;https://unionmedico.com/product-category/auto-injector-90/&#34;&gt;Union Medico autoinjector&lt;/a&gt;. It&amp;rsquo;s actually pretty cool, it holds they filled-syringe and drops it in to the muscle at the same pressure every time. It wasn&amp;rsquo;t super expensive, but has this limitation that it only takes one style of BD Luer-Lok syringe.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/auto_injector.png&#34; style=&#34;width:100%&#34;&gt;&lt;/img&gt;&lt;/p&gt;
-&lt;p&gt;Sadly, my pharmacy is out of those syringes so I picked up a bunch in bulk off of Amazon. Unfortuantely, the Amazon product is too small for my auto-injector. Probably should have looked for one with a picture of the syringe on it but even then they don&amp;rsquo;t have the correct style I need.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/syringe_box.png&#34;  style=&#34;width:100%&#34;&gt;&lt;/img&gt;&lt;/p&gt;
-&lt;p&gt;To solve this problem, I turned to OpenSCAD, calipers, and my AnkerMake M5 with some PLA filament in the drybox. Let&amp;rsquo;s get this thing designed! The design was really easy to  make, coming in at 10 lines of OpenSCAD and is going to save me a world of hurt not being able to actually take my medicine.&lt;/p&gt;
+&lt;p&gt;One of the things I have to do regularly to maintain my health is take an injeciton intramuscularly once a week. While many are okay just doing this free hand, and others go in to their doctor&amp;rsquo;s offices to get it done, I picked up a &lt;a href=&#34;https://unionmedico.com/product-category/auto-injector-90/&#34;&gt;Union Medico autoinjector&lt;/a&gt;. It&amp;rsquo;s actually pretty cool, it holds a pre-filled syringe and drops it in to the muscle at the same pressure every time. Yes I still have to fill the syringe and prep it for use, but this tool has been a LIFE SAVER literally. While it wasn&amp;rsquo;t super expensive and has made my life better every week of my life for the last two years, it has a limitation that it only takes one style of BD Luer-Lok syringe.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/auto_injector.png&#34; style=&#34;width:100%&#34; alt=&#34;Horizontal long silver cylindrical device with outer sheath that moves left and right, there&#39;s a locking rihg under the button that must be depressed to relese the outer spring-loaded sheath + needle in to the skin&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;Sadly, my pharmacy is out of compatible syringes meaning I would have to go out in the world and find my own supply while waiting for the backorder to come in. This led to me picing up a bunch of what I thought were compatible syringes in bulk off of Amazon. Unfortuantely, the Amazon product is too small for my auto-injector. Probably should have looked for one with a picture of the syringe on it but even then scrolling endlessly yielded little results, they don&amp;rsquo;t have the correct style I need. Protip, if there&amp;rsquo;s not a picture of what&amp;rsquo;s on the box, it&amp;rsquo;s probably the wrong kind.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/syringe_box.png&#34;  style=&#34;width:100%&#34; alt=&#34;Box for syringes with no picture of the actual thing in the box&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;So now I had 100 of the wrong size tube for my autoinjector. How to get this to work&amp;hellip; should be only a simple cylindrical adapter right? Only two cylinders and a cutout for the center, as well as a cutout for attaching to the Amazon purchase. With an idea in mind I turned to OpenSCAD, calipers, and my AnkerMake M5 with some PLA filament in the drybox. Let&amp;rsquo;s get this thing designed! The design was really easy to make, coming in at 10 lines of OpenSCAD and &lt;del&gt;is going to&lt;/del&gt; has already saved me a world of hurt not being able to actually take my medicine.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-openscad&#34; data-lang=&#34;openscad&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;translate([&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,shank_length]) difference(){
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cylinder(head_length, head_r, head_r);
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;cylinder(head_length, hull_r, hull_r);
@@ -35,16 +35,17 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;cylinder(shank_length, hull_r, hull_r);
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;cube([&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;,shank_length]);
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When implemented in OpenSCAD this is what it looks like:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/openscad_screenshot.png&#34; align=&#34;center&#34;  style=&#34;width:100%;&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now I know OpenSCAD can be a little daunting. When I asked a friend about switching to FreeCAD they said it was clunky, and I asked if it was worth switching off of OpenSCAD to learn it. His reply was distain and calling me a monster. It&amp;rsquo;s funny because he even works at a 3d print shop! Just so you&amp;rsquo;re not so scared of it, this is what the UX for OpenSCAD looks like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/openscad_screenshot.png&#34; style=&#34;width:100%;&#34; alt=&#34;Screen shot of the OpenSCAD interface. There is a code-input panel on the left and rendered 3d object on the right. Object is the designed part which is a cylinder long enough to mount on the sheath around the previously mentioned picture of the autoinjector.&#34;&gt;&lt;/img&gt;&lt;/p&gt;
 &lt;p&gt;Once designed, let&amp;rsquo;s print it! After printing, you can see the new adapter part next to the syringe.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/autoinjector_with_syringe.png&#34; style=&#34;width:100%&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/autoinjector_with_syringe.png&#34; style=&#34;width:100%&#34; alt=&#34;Amazon syringe, printed adapter, and autoinjector horizontally lined up&#34;&gt;&lt;/img&gt;&lt;/p&gt;
 &lt;p&gt;It fits in to the autoinjector, success!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/adapter_test_fit.png&#34;  style=&#34;width:100%&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/adapter_test_fit.png&#34;  style=&#34;width:100%&#34; alt=&#34;Adapter dry-fit in to autoinjector&#34;&gt;&lt;/img&gt;&lt;/p&gt;
 &lt;p&gt;And makes a NICE snapping sound when clicking in to place, as well as comes off easily after use.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/adapter_with_syringe_in_autoinjector.png&#34;  style=&#34;width:100%&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://aask.ltd/images/adapter_with_syringe_in_autoinjector.png&#34;  style=&#34;width:100%&#34; alt=&#34;Adapter mounted on unfilled syringe in autoinjector&#34;&gt;&lt;/img&gt;&lt;/p&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;This was a really simple solution to a problem I had in my life&lt;/p&gt;
+&lt;p&gt;This was a really simple solution to a problem I had in my life that only a tech mindset and a 3d printer could solve in real time. If I had not had the skills to design my own parts on OpenSCAD and the hardware to print the part, and the knowhow of basic clip-fit parts for pipes from my plumbing upbringing, I may not have been able to solve this challenge to my own healthcare. It&amp;rsquo;s amazing how small changes to things can have big impact to even my own life. It&amp;rsquo;s even more amazing that in our generation if we want to look for them, we can find the tools and knowledge to overcome just about any roadblock that might come up in our lives.&lt;/p&gt;
+&lt;p&gt;PS: If you have to take any kind of injections on the regular, GET AN AUTOINJECTOR LIKE THIS. They save so much headache and provide a consistent experience every time you have to use them. Also, while one of the parts on my model keeps breaking I&amp;rsquo;ve been able to repair it agter they&amp;rsquo;ve sent multiple replacement parts and every one breaks in the same exact way. Will probably do a writeup on that later.&lt;/p&gt;
 </description>
     </item>
     
@@ -158,8 +159,6 @@ Figure 20. The first test fit of the buttons, screen, pumps, and circuit-board i
 &lt;img src=&#34;https://aask.ltd/images/image.png&#34; width=&#34;100%&#34;&gt;&lt;/img&gt;&lt;/p&gt;
 </description>
     </item>
-    
-    
     
     
     

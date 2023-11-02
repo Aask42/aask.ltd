@@ -1,7 +1,6 @@
 +++
 title = 'Contact'
-date = 2023-10-16T21:11:42-05:00
-draft = true
+draft = false
 sidemenu = "true"
 description = "How to contact me"
 +++
@@ -13,5 +12,5 @@ description = "How to contact me"
   <label for="email">Email</label>
   <input name="email" type="email" required></br>
   <p>Powered by <a href="https://fabform.io" target="_blank">fabform.io</a></p>
-  <button class="button is-link" type="submit">Test</button>
+  <button class="button is-link" type="submit">Notify Aask!</button>
 </form>

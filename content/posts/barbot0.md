@@ -1,12 +1,12 @@
 +++
 title = 'Drinkbot'
 date = 2023-10-17T18:41:55-05:00
-draft = true
+draft = false
 +++
 
-## Senor Drinknstein Comes to LIFE
+## Señor Drinknstein Comes to LIFE
 
-Senor Drinknstein started with an idea to use peristaltic pumps to serve various beverages, and has become so much more. For DEF CON 30 we worked to create a system of hardware and firmware that would give the end user a memorable experience while serving them a unique drink in a unique way at a unique event around unique people.
+Señor Drinknstein started with an idea to use peristaltic pumps to serve various beverages, and has become so much more. For DEF CON 30 we worked to create a system of hardware and firmware that would give the end user a memorable experience while serving them a unique drink in a unique way at a unique event around unique people.
 
 Because this is a finished project and I am ~lazy~ efficient, I'm going to type everything up here in most likely one go. GLHF, watch me for the changes and try to keep up.
 
@@ -76,6 +76,4 @@ Figure 19. Things are starting to get messy with adding the buttons and screen t
 <img src="/images/figure20.png" width="100%"></img>
 Figure 20. The first test fit of the buttons, screen, pumps, and circuit-board inside of the LEGALLY ACQUIRED milk crate
 
-
-![Alt text](image.png)
-<h1>TO BE CONTINUED</h1>
+<h1>CONTINUED <a href="/posts/barbot0_part2">HERE</a></h1>
