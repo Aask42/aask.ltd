@@ -29,7 +29,6 @@ Here's the highlights I'll probably expand on over the years.
 - First job was working for my father's Plumbing contractor company (Non-Union, but I am Pro-Union)
 - Second job working at Circuit City in the home-audio department for seasonal work
 - Third was a local sporting-goods/batting-cages/screen-print/seamstress shop. We even had one of my dad's pinball machines set up there for quarter play! Made very little money off it. There's several fun stories from working at this place, including running a security camera on a cat-5 cable I spliced together with duct-tape on top of a 15 foot ladder/on top of a 12 foot raised platform over the fitting rooms. This is also the job where I started to learn how to behave in a work environment that wasn't a jobsite. 
-- Was slated to go to the USAFA (I wanted to be an astronaut, it was a big part of my life before college!) but had my acceptance letter rescinded a few months before graduationg high school so I had to pivot
 - Attended Augustana College 2005-2009 and got my Bachelor of Arts degree focused on Physics & engineering. Almost got a minor in Asian Studies due to my love of Japanese and other east-asian cultures. 
   - There's a whole book I could write on everything I got to do in college
   - Accidentally got 2nd place in a Business Intelligence contest at the 2006 AITP meeting
