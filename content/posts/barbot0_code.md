@@ -13,6 +13,7 @@ In this writeup we will be exploring the world of how we coded Señor Drinknstei
 ## Building our own from the ground up
 
 ## Programming the LCD screen
+
 ### Animating the LCD screen, thank you Meustrus!
 
 ## Config-driven OOP style

@@ -66,7 +66,7 @@ Here's the highlights I'll probably expand on over the years.
   - Also started going to DEF CON and getting in to cybersecurity things. You know how hanging around tall people doesn't make you tall? Turns out, hanging around hackers, turns you in to a hacker. 
 - Started GOONing for DEF CON for the NFO team in 2018 and have now 5 years under my belt on that team!
   - In my time there I have created swag and even a custom hardware badge for the team
-- Started making my hardware with the <a href="WhiskeyHackers.com#noflashy">Whiskey Pirates</a> in 2019 and 2020 with the world's first <a href="https://batteryinter.net">DEFCELL: The Internet of Batteries</a>, in 2022 for the NFO badge. 
+- Started making my hardware with the <a href="http://whiskeypirates.com/?noflashy">Whiskey Pirates</a> in 2019 and 2020 with the world's first <a href="https://batteryinter.net">DEFCELL: The Internet of Batteries</a>, in 2022 for the NFO badge. 
 - In 2020 I began networking to find my next role as I had 100% automated my previous role, and I wanted a new challenge. After networking around to find who to talk to in leadership to step up to the next lever, my employer discovered I was GOONing, learned of my passion for cybersecurity and embedded systems, and started introducing me to people in our security org. It wasn't long until we landed a role in Embedded Security by Design. 
 - In my SBD role I honed my python skills and truly blossomed in to what I consider to be a "full-stack developer". I got to learn full-stack CI/CD pipelines and reverse engineer the build process for various embedded systems. I can't tell you the headache of trying to patch a security flaw where the patch is GPL3.0. In the end, in that role I led our team to create a tool for Software Composition Analysis of platforms using nothing but a basic manifest of 3rd party software included in the build along the various steps. No, we couldn't just use an OOTB solution, no I can't tell you why ;) 
 - Since mid-2021 I have been in an official "Red Team" role for embedded system security, which presents its own unique-ness in that you can't just be specialized in the build platform, or the UX, or the BSP, or specific areas of the platform. With the IoT landscape, you have to be a full-stack developer with cloud experience, a network admin, a sysadmin, a coder, an analyst, a project manager, and any other role you can think of in order to properly evaluate the threat model of these systems and begin to map attack-surfaces in a meaningful, actionable manner. 
@@ -81,6 +81,8 @@ Here's the highlights I'll probably expand on over the years.
 Con | Years/Instances | Notes
 -|-|-
 DEFCON | 23-31 | NFO GOON 26-Present
+Hackaday Supercon | 2021, 2022, 2023 | Exhibitor of fun things
+Shmoocon | 2018 | Attendee
 
 
 ## Auxilary things!

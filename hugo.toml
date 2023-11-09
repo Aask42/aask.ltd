@@ -1,16 +1,14 @@
 baseURL = 'https://aask.ltd'
 languageCode = 'en-us'
-title = "Aask's Homepage"
-theme = 'hugo-blog-awesome'
+theme = 'hugo-profile'
 author = "Aask"
-copyright = "&copy; 2023. All rights reserved."
 canonifyurls = true
 paginate = 10
 publishDir = 'docs'
 
+
 [markup]
   defaultMarkdownHandler = 'goldmark'
-
 
 [markup.goldmark.renderer] 
 unsafe = true 
@@ -19,9 +17,39 @@ unsafe = true
   tag = "tags"
   topic = "topics"
 
+title = "Aask's Homepage"
+
 [params]
+  favicon= "/images/fav.png"
+  
+  [params.terms]
+    copyright = "Aask. All rights reserved."
+  [params.footer]
+    [params.footer.recentPosts]
+      path = "posts"
+      count = 3
+      title = "Recent Posts"
+      enable = false
+      disableFeaturedImage= false
+  [params.hero]
+    enable = true
+    intro = "Hi, my name is"
+    subtitle = "Aask Questions!"
+    content = "This is a place for me to keep track of my projects and make it a lot easier to share how and why I build the things I do. Check out some of my posts, share if you want, and let me know if you have any questions!"
+    image = "/images/me_working.png"
+    [params.hero.bottomImage]
+      enable= false
+  [params.navbar]
+    brandLogo = "/images/icon.png"
+    disableSearch= true
+
+  [params.contact.formspree]
+    enable = true
+    formId = "https://fabform.io/f/r0fR7zX"
+    emailCaption = "Enter your email address"
+    messageCaption = "Enter your message here"
+
   # Shown in the home page
-  subtitle = "A place for my projects"
   brand = "AaskLabs"
   googleAnalytics = "G-1YST1BFXGC"
   #disqus = "Your Disqus shortname"
@@ -30,6 +58,7 @@ unsafe = true
   dateFormat = "02 Jan 2006, 15:04"
   [params.author]
     name = "Aask Questions"
+  
 [menu]
   # Shown in the side menu.
   [[menu.main]]
@@ -49,6 +78,12 @@ unsafe = true
     weight = 3
     identifier = "about"
     url = "/about/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "posts"
+    url = "/posts/"
 
 [social]
   # Link your social networking accouns to the side menu
