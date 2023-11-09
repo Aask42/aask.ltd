@@ -1,44 +1,575 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="shortcut icon" href="https://aask.ltd/favicon.ico">
-    
-    <link rel="stylesheet" href="https://aask.ltd/css/style.min.css">
+<html>
 
-    <link rel="canonical" href="https://aask.ltd/about/" />
-    <title>About</title>
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+
+<link rel="icon" href=https://aask.ltd/images/fav.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="https://aask.ltd/css/font.css" media="all">
+
+
+
+<meta property="og:title" content="About" />
+<meta property="og:description" content="Step 1. whoami? I&rsquo;m Aask! Up to all the things that are fun and interesting. I created this website out of frustration of hackaday.io not being flexible enough. So I thought, instead of figuring out how to better use their services, why not learn an entire new technology stack called Hugo!
+Now I&rsquo;m here, updating this about me page, and have everything hooked up through gitpages.
+NOTE: THIS IS NOT MY RESUME." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aask.ltd/about/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2023-10-29T09:07:12-05:00" />
+<meta property="article:modified_time" content="2023-10-29T09:07:12-05:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="About"/>
+<meta name="twitter:description" content="Step 1. whoami? I&rsquo;m Aask! Up to all the things that are fun and interesting. I created this website out of frustration of hackaday.io not being flexible enough. So I thought, instead of figuring out how to better use their services, why not learn an entire new technology stack called Hugo!
+Now I&rsquo;m here, updating this about me page, and have everything hooked up through gitpages.
+NOTE: THIS IS NOT MY RESUME."/>
+<meta name="twitter:site" content="@aask42"/>
+
+
+<link rel="stylesheet" href="https://aask.ltd/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="https://aask.ltd/css/header.css" media="all">
+<link rel="stylesheet" href="https://aask.ltd/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="https://aask.ltd/css/theme.css" media="all">
+
+
+
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        width: .5em;
+        height: .5em;
+        background-color: var(--background-color);
+    }
+    
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px var(--background-color);
+        border-radius: 1rem;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background-color: var(--secondary-color);
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+<meta name="description" content="">
+<link rel="stylesheet" href="https://aask.ltd/css/single.css">
+
+
+<script defer src="https://aask.ltd/fontawesome-5/all-5.15.4.js"></script>
+
+  <title>
+About | 
+
+  </title>
 </head>
-<body><header id="banner">
-    <h2><a href="https://aask.ltd">Aask&#39;s Homepage</a></h2>
-    <nav>
-        <ul>
-            <li>
-                <i class='fa fa-home fa-fw'></i><a href="https://aask.ltd/" title="">Home</a>
-            </li><li>
-                <i class='fa fa-phone fa-fw'></i><a href="https://aask.ltd/contact/" title="">Contact</a>
-            </li><li>
-                <i class='fa fa-user fa-fw'></i><a href="https://aask.ltd/about/" title="">About</a>
-            </li>
-        </ul>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+<header>
+    <nav class="pt-3 navbar navbar-expand-lg ">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="https://aask.ltd/">
+                
+                <img src="https://aask.ltd/images/icon.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                
+                
+            </a>
+
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://aask.ltd/" title="">
+                            <i class='fa fa-home fa-fw'></i>
+                            Home
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://aask.ltd/contact/" title="">
+                            <i class='fa fa-phone fa-fw'></i>
+                            Contact
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://aask.ltd/about/" title="">
+                            <i class='fa fa-user fa-fw'></i>
+                            About
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://aask.ltd/posts/" title="">
+                            <i class='fa fa-user fa-fw'></i>
+                            Posts
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
     </nav>
 </header>
-<main id="content">
-<article>
-    <header id="post-header">
-        <h1>About</h1>
-        <div>
-                <time>October 16, 2023</time>
-            </div>
-    </header><h2 id="step-1-whoami">Step 1. whoami?</h2>
-<p>I&rsquo;m Aask! Up to all the things that are fun and interesting. I created this website out of frustration of hackaday.io not being flexible enough. So I thought, instead of figuring out how to better use their services, why not learn an entire new technology stack called Hugo!</p>
-<p>Now I&rsquo;m here, writing up this about me page, and eventually will get it hooked up through gitpages. Hopefully tonight and I&rsquo;ll be able to delete this line.</p>
-<p>I&rsquo;ll add more about my backstory once I have more of this site completed. Thanks for stopping by!</p>
-</article>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">About</h1>
+            <div class="text-center">
+               
+              <small>|</small>
+              Oct 29, 2023
 
-        </main><footer id="footer">
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <p><img src="https://aask.ltd/images/me.png"  style="width:100%" alt="Picture of Aask posing with a pair of Señor Drinknstein Bar Robots at the 2022 DC Shenanigans Rentanassassin Party"></img></p>
+<h2 id="step-1-whoami">Step 1. whoami?</h2>
+<p>I&rsquo;m Aask! Up to all the things that are fun and interesting. I created this website out of frustration of hackaday.io not being flexible enough. So I thought, instead of figuring out how to better use their services, why not learn an entire new technology stack called Hugo!</p>
+<p>Now I&rsquo;m here, updating this about me page, and have everything hooked up through gitpages.</p>
+<h4 id="note-this-is-not-my-resume-this-is-the-story-of-my-life">NOTE: THIS IS NOT MY RESUME. THIS IS THE STORY OF MY LIFE.</h4>
+<p>Please reach out via my <a href="https://aask.ltd/contact">contact form</a> to request the most recent copy of my resume</p>
+<h2 id="backstory-i-should-share-about-my-history-right">Backstory, I should share about my history right?</h2>
+<p>Here&rsquo;s the highlights I&rsquo;ll probably expand on over the years.</p>
+<ul>
+<li>Born and raised in the suburbs of Chicago, Illinois, USA and went to a very musically-inclined school district.</li>
+<li>Grew up playing NES, SNES, The Original Gameboy (and various models), etc. At this point the only Nintendo consoles I haven&rsquo;t owned/no longer own are mainly variations of things and the virtual boy.</li>
+<li>The first game I remember playing is Tetris on my Gameboy. I&rsquo;ve been told I played other games before that, but Tetris is the game I remember. It was the first game I got to the &ldquo;win&rdquo; screen on ever. Watching that space-shuttle Buran launch over Moscow was so cool in the glow of the streetlights that would illuminate the screen for me in a seemingly endless cascade toggling between shadows and sodium-light every 5 seconds. Appropriate for the game I&rsquo;d say. Too bad I&rsquo;ll never be able to visit Russia or the beautiful sights depicted in those earliest memories of mine.</li>
+<li>Fell in love with Zelda ALttP and OOT at 10-12 years old and have now owned at some point a large majority of the franchise&rsquo;s releases. Still in my thirties I find myself taking a few days off every time a new adventure in Hyrule presents itself. The main difference now is I&rsquo;m now using speed-running strats regularly and am constantly trying to glitch the games I play.</li>
+<li>Played various videogames my friends were in to, learned TCP/IP networking from Starcraft&rsquo;s local network play feature where you could remove the CD and play on another computer at the same time. My friends and I taught ourselves network tunneling and VPNs to play Diablo and Warcraft II over the internet even back in 2002.</li>
+<li>Started repairing laptops at 14 years-old after the 4th occasion of a DC-Jack break incident and the need for a replacement. I didn&rsquo;t want another laptop going to Circuit City for repair. They forgot to return my dial-up modem after a repair on my Compaq Presario leading the store to just swap it for an HP Pavilion.</li>
+<li>First job was working for my father&rsquo;s Plumbing contractor company (Non-Union, but I am Pro-Union)</li>
+<li>Second job working at Circuit City in the home-audio department for seasonal work</li>
+<li>Third was a local sporting-goods/batting-cages/screen-print/seamstress shop. We even had one of my dad&rsquo;s pinball machines set up there for quarter play! Made very little money off it. There&rsquo;s several fun stories from working at this place, including running a security camera on a cat-5 cable I spliced together with duct-tape on top of a 15 foot ladder/on top of a 12 foot raised platform over the fitting rooms. This is also the job where I started to learn how to behave in a work environment that wasn&rsquo;t a jobsite.</li>
+<li>Was slated to go to the USAFA (I wanted to be an astronaut, it was a big part of my life before college!) but had my acceptance letter rescinded a few months before graduationg high school so I had to pivot</li>
+<li>Attended Augustana College 2005-2009 and got my Bachelor of Arts degree focused on Physics &amp; engineering. Almost got a minor in Asian Studies due to my love of Japanese and other east-asian cultures.
+<ul>
+<li>There&rsquo;s a whole book I could write on everything I got to do in college</li>
+<li>Accidentally got 2nd place in a Business Intelligence contest at the 2006 AITP meeting</li>
+<li>Built a 3m long throwing arm Trebuchet</li>
+<li>Descaled a boiler</li>
+<li>Explored 100% of the rooms in the science building on campus looking for a single cart</li>
+<li>Driving a standard transmission pickup-truck all summer</li>
+<li>Worked so many jobs! From the bookstore to tutoring to running sound and lights for various campus shows, to lab proctoring and grading papers, repairing computers for AITP (both school and community), and even working campus maintenance for the summer! I think at one point I had 6 jobs at the same time across the year that either overlapped or were back to back. What a time to be alive! And somehow I still ended up with a lot of student debt</li>
+<li>Travelled Japan, Taiwan, and China for 3.5 months in 2007 in their now discontinued &ldquo;Asian Term&rdquo;</li>
+<li>Almost failed Intro to CS 201 and 202. They threw us right in to learning OOP Java, which just didn&rsquo;t click for me until much later in life.</li>
+</ul>
+</li>
+<li>Got a job at a local computer repair shop by my alma-mater
+<ul>
+<li>Learned PBX programming</li>
+<li>Professional laptop repair</li>
+<li>Professional desktop repair</li>
+<li>Professional server and data recovery</li>
+<li>Ebay store somehow? Reduced old inventory from old computer parts to fuel cleaning kits for automotive</li>
+<li>Took inventory of unsorted back-room, and started sorting and tracking things that had long been forgotten about</li>
+</ul>
+</li>
+<li>Worked at a farm supply shop similar to a Wal-mart but for farmers for 1.5 months out of college
+<ul>
+<li>It&rsquo;s funny, I worked with a girl there that is the sister of a person I ended up working with at the Data Center position I talk about later on.</li>
+</ul>
+</li>
+<li>Got job at a mobile phone provider&rsquo;s &ldquo;Smart-Phone&rdquo; call center where I worked my way to &ldquo;Floor walker&rdquo; IE assistant manager. Taking escalations, having a higher SLA, knowing how to get around the computer systems and helping people when they raised their hands on calls. It was actually a fun job and I met some amazing friends there! One I was friends with for the remainder of her life as she sadly passed away several years ago. I&rsquo;m still Aunt Aask to her kids.
+<ul>
+<li>Worked here for a year and a half and definitely have stories from this job</li>
+</ul>
+</li>
+<li>Took contract job working at a world-class data-center, supporting 400+ factories and 1000+ sites globally</li>
+<li>Interviewd and got hired on at the company contracting me, which is where I still work to this day. Honestly I don&rsquo;t know if I will ever work anywhere else as this company has a real effort to provide its employees a work-life balance that actually works
+<ul>
+<li>So many stories from Datacenter Operations</li>
+<li>Started mining and gambling with cryptocurrency (What else was there to do with it back then)</li>
+<li>Started coding gambling strategies in to my crypto-bots using JS in an in-browser editor, realized holy cow I can code!</li>
+<li>Automated my job of ticket handling and SME notification</li>
+<li>Couldn&rsquo;t automate running calls for shop-floor down situations unfortunately</li>
+<li>Got job to continue automating evey more. Before I did the work my peers either said the work I was doing would eliminate our jobs, or that there were too many alert types to try to sort through. I showed them!</li>
+</ul>
+</li>
+<li>Then I realized I&rsquo;m a woman and wow did that throw a wrench in to things! But it is working out seemingly. While my family of origin didn&rsquo;t take it well, my employer definitely did the right things and has continued to work with me to this day to help provide a streamlined no-fuss experience for transitioning genders on the job.</li>
+<li>In 2016 transferred departments from Datacenter Operations, to Dealership operations. No longer were my customers the shop floor, but instead it was the network of systems that keep our products flowing out the door.
+<ul>
+<li>Again I began automating my job. Learned PowerShell and OOP properly, rewrote legacy scripts from the inside-out.</li>
+<li>Again, many stories I can share from my almost 5 years in Dealership Operations, will write those up at a later date.</li>
+<li>Also started going to DEF CON and getting in to cybersecurity things. You know how hanging around tall people doesn&rsquo;t make you tall? Turns out, hanging around hackers, turns you in to a hacker.</li>
+</ul>
+</li>
+<li>Started GOONing for DEF CON for the NFO team in 2018 and have now 5 years under my belt on that team!
+<ul>
+<li>In my time there I have created swag and even a custom hardware badge for the team</li>
+</ul>
+</li>
+<li>Started making my hardware with the <a href="http://whiskeypirates.com/?noflashy">Whiskey Pirates</a> in 2019 and 2020 with the world&rsquo;s first <a href="https://batteryinter.net">DEFCELL: The Internet of Batteries</a>, in 2022 for the NFO badge.</li>
+<li>In 2020 I began networking to find my next role as I had 100% automated my previous role, and I wanted a new challenge. After networking around to find who to talk to in leadership to step up to the next lever, my employer discovered I was GOONing, learned of my passion for cybersecurity and embedded systems, and started introducing me to people in our security org. It wasn&rsquo;t long until we landed a role in Embedded Security by Design.</li>
+<li>In my SBD role I honed my python skills and truly blossomed in to what I consider to be a &ldquo;full-stack developer&rdquo;. I got to learn full-stack CI/CD pipelines and reverse engineer the build process for various embedded systems. I can&rsquo;t tell you the headache of trying to patch a security flaw where the patch is GPL3.0. In the end, in that role I led our team to create a tool for Software Composition Analysis of platforms using nothing but a basic manifest of 3rd party software included in the build along the various steps. No, we couldn&rsquo;t just use an OOTB solution, no I can&rsquo;t tell you why ;)</li>
+<li>Since mid-2021 I have been in an official &ldquo;Red Team&rdquo; role for embedded system security, which presents its own unique-ness in that you can&rsquo;t just be specialized in the build platform, or the UX, or the BSP, or specific areas of the platform. With the IoT landscape, you have to be a full-stack developer with cloud experience, a network admin, a sysadmin, a coder, an analyst, a project manager, and any other role you can think of in order to properly evaluate the threat model of these systems and begin to map attack-surfaces in a meaningful, actionable manner.
+<ul>
+<li>Yes I have LOTS of fun stories from this job! But I can&rsquo;t share them&hellip;..yet</li>
+</ul>
+</li>
+<li>Outside of work am a maker, have many projects.
+<ul>
+<li>From the IoB linked above, to my latest project <a href="https://31337.cash">Hacker Reserve Notes</a></li>
+<li>In a future writeup we will be sharing about 3dprinted silk-screen frames I&rsquo;ve been using to make art!</li>
+</ul>
+</li>
+<li>Last year (2022) begain volunteering for FIRST student robotics leagues</li>
+</ul>
+<h2 id="conferences-attended">Conferences attended</h2>
+<table>
+<thead>
+<tr>
+<th>Con</th>
+<th>Years/Instances</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DEFCON</td>
+<td>23-31</td>
+<td>NFO GOON 26-Present</td>
+</tr>
+<tr>
+<td>Hackaday Supercon</td>
+<td>2021, 2022, 2023</td>
+<td>Exhibitor of fun things</td>
+</tr>
+<tr>
+<td>Shmoocon</td>
+<td>2018</td>
+<td>Attendee</td>
+</tr>
+</tbody>
+</table>
+<h2 id="auxilary-things">Auxilary things!</h2>
+<ul>
+<li>Played Saxophone (and took private lessons) for 8 years. Started on Clarinet in 4th grade, moved to alto-sax in 6th grade. Then played alto and tenor sax regularly through my first year of college. Also played bari sax occasionally for band, and even played several musicals in pit-orchestra! That was a fun time. The one I remeber the most was &ldquo;Anything Goes&rdquo;, that&rsquo;s actually around when I met my highschool sweetheart! She actually went on to go to culinary school and is currently a head-chef (I think head? Either sous or head) at an establishment in Texas. I no longer play sax regularly as I never really had a passion for it, though I did pick up guitar and have learned enough piano to doddle my favorite songs.</li>
+<li></li>
+</ul>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#step-1-whoami">Step 1. whoami?</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#backstory-i-should-share-about-my-history-right">Backstory, I should share about my history right?</a></li>
+    <li><a href="#conferences-attended">Conferences attended</a></li>
+    <li><a href="#auxilary-things">Auxilary things!</a></li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=About&url=https%3a%2f%2faask.ltd%2fabout%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=About: https%3a%2f%2faask.ltd%2fabout%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=About&amp;body=Check%20out%20this%20site https%3a%2f%2faask.ltd%2fabout%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="https://aask.ltd/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+
+<script src="https://aask.ltd/js/readingTime.js"></script>
+
+
+
+  </div><footer>
     
-</footer>
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            <div class="pb-2">
+                <a href="https://aask.ltd" title="">
+                    <img alt="Footer logo" src="https://aask.ltd/images/icon.png"
+                        height="40px" width="40px">
+                </a>
+            </div>
+            &copy; 2023  Aask. All rights reserved.
+        </div>
+    </div>
+</div></footer><script src="https://aask.ltd/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://aask.ltd/js/contact.js"></script>
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
 </body>
+
 </html>
