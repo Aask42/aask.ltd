@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=https://aask.ltd/images/fav.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="https://aask.ltd/css/font.css" media="all">
+
+
+
+<meta property="og:title" content="Ftc_fancy_lights" />
+<meta property="og:description" content="Illuminating Productivity: My Journey with FTC Fancy Lights Hey there First Tech Challenge enthusiasts! For the past month I&rsquo;ve been hyperfocusing on this build an special project for the FTC Iowa/Nebraska Championship at the XTreme Arena in Coralville Iowa. I&rsquo;m super excited to share my latest project with you all – the &ldquo;FTC Fancy Lights&rdquo; project!. This isn&rsquo;t just any ordinary lighting project; it&rsquo;s a blend of art, technology, and a bit of magic." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aask.ltd/ftc_fancy_lights/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2024-03-01T20:49:17-06:00" />
+<meta property="article:modified_time" content="2024-03-01T20:49:17-06:00" />
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Ftc_fancy_lights"/>
+<meta name="twitter:description" content="Illuminating Productivity: My Journey with FTC Fancy Lights Hey there First Tech Challenge enthusiasts! For the past month I&rsquo;ve been hyperfocusing on this build an special project for the FTC Iowa/Nebraska Championship at the XTreme Arena in Coralville Iowa. I&rsquo;m super excited to share my latest project with you all – the &ldquo;FTC Fancy Lights&rdquo; project!. This isn&rsquo;t just any ordinary lighting project; it&rsquo;s a blend of art, technology, and a bit of magic."/>
+<meta name="twitter:site" content="@aask42"/>
+
+
+<link rel="stylesheet" href="https://aask.ltd/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="https://aask.ltd/css/header.css" media="all">
+<link rel="stylesheet" href="https://aask.ltd/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="https://aask.ltd/css/theme.css" media="all">
+
+
+
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        width: .5em;
+        height: .5em;
+        background-color: var(--background-color);
+    }
+    
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px var(--background-color);
+        border-radius: 1rem;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background-color: var(--secondary-color);
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+<meta name="description" content="">
+<link rel="stylesheet" href="https://aask.ltd/css/single.css">
+
+
+<script defer src="https://aask.ltd/fontawesome-5/all-5.15.4.js"></script>
+
+  <title>
+Ftc_fancy_lights | 
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+<header>
+    <nav class="pt-3 navbar navbar-expand-lg ">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="https://aask.ltd/">
+                
+                <img src="https://aask.ltd/images/icon.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                
+                
+            </a>
+
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://aask.ltd/" title="">
+                            <i class='fa fa-home fa-fw'></i>
+                            Home
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://aask.ltd/contact/" title="">
+                            <i class='fa fa-phone fa-fw'></i>
+                            Contact
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://aask.ltd/about/" title="">
+                            <i class='fa fa-user fa-fw'></i>
+                            About
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://aask.ltd/posts/" title="">
+                            <i class='fa fa-user fa-fw'></i>
+                            Posts
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Ftc_fancy_lights</h1>
+            <div class="text-center">
+               
+              <small>|</small>
+              Mar 1, 2024
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <h1 id="illuminating-productivity-my-journey-with-ftc-fancy-lights">Illuminating Productivity: My Journey with FTC Fancy Lights</h1>
+<p><img src="https://aask.ltd/images/money_shot.png" alt="Money shot of 10 of these things looking fabulous"></p>
+<p>Hey there <a href="https://firstinspires.org">First Tech Challenge</a> enthusiasts! For the past month I&rsquo;ve been hyperfocusing on this build an special project for the FTC Iowa/Nebraska Championship at the XTreme Arena in Coralville Iowa. I&rsquo;m super excited to share my latest project with you all – the &ldquo;FTC Fancy Lights&rdquo; project!. This isn&rsquo;t just any ordinary lighting project; it&rsquo;s a blend of art, technology, and a bit of magic. Let me take you through the captivating world of my 8-sided infinity mirror creation, where every reflection tells a story of innovation and creativity. I made these lights to give to the 9 Jackson Pollock League finalist for the 2024 FTC CENTERSTAGE season State Championship in Iowa City, Iowa. There are 10 in the set of nine infinity mirrors, and there are going be detailed build instructions and a build video posted at a later date I&rsquo;m not committed to yet.</p>
+<p>FYI: Most of this article was written by GPT 4.0 by OpenAI because I didn&rsquo;t have time to do it before the event and all you lovely people. I used the repository along with a prompt engineered with some of the source code for the mirrors in order to pull this off</p>
+<h2 id="skip-to-the-good-part-i-want-to-build-my-own">SKIP TO THE GOOD PART, I WANT TO BUILD MY OWN</h2>
+<p>Hold on there partner, this is a 5/10 difficulty task, with some aspects being a 6 of 10 difficulty (mainly the soldering to split the LED strip) and some that require a laser cutter to get the sharp accuracy capable of OpenSCAD projects. If you are so inclined and don&rsquo;t want to wait for the full writeup, you can find the files you need in <a href="https://github.com/Aask42/ftc_fancy_lights/blob/main/ftc_fancy_lights">our repository</a>.</p>
+<h2 id="where-do-i-get-the-code-ie-important-files">Where do I get the code IE Important Files?</h2>
+<ul>
+<li>The housing files are here, but it&rsquo;s missing some stuff right now so you will have to know a little scad to add your own flare
+<ul>
+<li><a href="https://github.com/Aask42/ftc_fancy_lights/blob/main/renderings/box_for_mirror.152.5.scad">https://github.com/Aask42/ftc_fancy_lights/blob/main/renderings/box_for_mirror.152.5.scad</a></li>
+</ul>
+</li>
+<li>The files you need for your MicroPython instance
+<ul>
+<li>NOTE: <a href="https://github.com/pimoroni/pimoroni-pico/releases">YOU MUST USE THE PIMORINI FLAVOR OF MICROPYTHON FOR THIS ALL TO WORK</a></li>
+<li>NOTE: You MUST add the umqtt library to your pico, you can add this using Thonny&rsquo;s library manager</li>
+<li><a href="https://github.com/Aask42/ftc_fancy_lights/blob/main/ftc_fancy_lights">https://github.com/Aask42/ftc_fancy_lights/blob/main/ftc_fancy_lights</a></li>
+<li>You MUST have the CONFIG folder set up with MQTT_CONFIG.py and WIFI_CONFIG.py.
+<ul>
+<li>MAKE SURE TO RENAME YOUR TEMPLATES</li>
+</ul>
+</li>
+<li>You MUST have the following files:
+<ul>
+<li>main.py</li>
+<li>updates.py</li>
+<li>helper.py</li>
+<li>umqtt/*
+<ul>
+<li>Install using the thonny library manager and pull it out of the lib folder</li>
+</ul>
+</li>
+<li>CONFIG/*_CONFIG.py
+<ul>
+<li>There are 6 files in here you need</li>
+</ul>
+</li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="what-do-the-colors-mean">WHAT DO THE COLORS MEAN!!!</h2>
+<table>
+<thead>
+<tr>
+<th>Indicator</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Red Honk x3</td>
+<td>Issues connecting to wifi</td>
+</tr>
+<tr>
+<td>Green Honk x3</td>
+<td>Wifi connected</td>
+</tr>
+<tr>
+<td>Purple Honk x1</td>
+<td>MQTT connecting</td>
+</tr>
+<tr>
+<td>Second Green Honk x3</td>
+<td>MQTT Connected</td>
+</tr>
+<tr>
+<td>Red Honk x3 after first Green Honk</td>
+<td>Wifi connected, MQTT failed</td>
+</tr>
+<tr>
+<td>Spinning chase animation</td>
+<td>Idle, no internet connection</td>
+</tr>
+<tr>
+<td>Bouncing chase animation</td>
+<td>Connected to MQTT server and receiving clock pulse</td>
+</tr>
+</tbody>
+</table>
+<h2 id="project-overview">Project Overview</h2>
+<ul>
+<li>
+<p><strong>Design and Structure</strong>: At the heart of this project is an 8-sided infinity mirror, meticulously crafted using PLA and designed with OpenSCAD. The geometric symmetry and precision reflect my commitment to both aesthetics and functionality.</p>
+</li>
+<li>
+<p>The structure combines artistic design with precision engineering, achieved through the versatility of OpenSCAD</p>
+</li>
+<li>
+<p><strong>Lighting Up the Scene</strong>: What makes FTC Fancy Lights truly shine are the 144 WS2812 LEDs. Arranged over two 0.5-meter loops, these LEDs are more than just sources of light; they&rsquo;re the canvas where I paint my tech-inspired dreams.</p>
+</li>
+<li>
+<p>Each LED loop is carefully programmed to create mesmerizing lighting effects, providing a dynamic visual experience</p>
+</li>
+<li>
+<p><strong>The Brain Behind the Beauty</strong>: Powering this intricate setup is the RP2040 Pico W. I chose this for its reliability and versatility, especially when working with MicroPython – a language that&rsquo;s close to my coder&rsquo;s heart.</p>
+</li>
+<li>
+<p>The RP2040 Pico W, running MicroPython, provides a stable and flexible platform for controlling the LEDs and managing the device&rsquo;s functionality</p>
+</li>
+<li>
+<p><strong>Connectivity and Control</strong>: This project isn&rsquo;t just about static beauty. It&rsquo;s interactive, thanks to its connection to a pair of webservers. These servers enable MQTT subscription triggers, allowing the mirror to respond to various inputs and events in real-time.</p>
+</li>
+<li>
+<p>The device connects to MQTT servers for real-time interaction and control. It can respond to different triggers and display various animations based on the received MQTT messages</p>
+</li>
+<li>
+<p>THIS MEANS WE HAVE A FULL SYNCED NETWORK OF LIGHTS!</p>
+</li>
+<li>
+<p><strong>Seamless Updates and Integration</strong>: The integration with an OTA (Over-The-Air) server ensures that FTC Fancy Lights is always up-to-date with the latest features and fixes, all running on the same architectural Docker host.</p>
+</li>
+<li>
+<p>OTA updates are implemented for easy maintenance and feature upgrades, ensuring that the device remains current and versatile</p>
+</li>
+</ul>
+<h2 id="technical-highlights">Technical Highlights</h2>
+<ul>
+<li>
+<p><strong>OpenSCAD Design</strong>: The freedom and precision of OpenSCAD played a crucial role in the design process, allowing for customization down to the smallest detail.</p>
+</li>
+<li>
+<p>The design process involved detailed customization and precision modeling to create the unique 8-sided structure</p>
+</li>
+<li>
+<p><img src="image.png" alt="Picture of OpenSCAD interface"></p>
+</li>
+<li>
+<p><strong>MicroPython Magic</strong>: Utilizing MicroPython on the RP2040 Pico W not only provided a stable platform but also allowed for easy coding and quick iterations.</p>
+</li>
+<li>
+<p>The use of MicroPython facilitated efficient coding and rapid development, making it easier to implement and test various features</p>
+</li>
+<li>
+<p><img src="image-2.png" alt="alt text"></p>
+</li>
+<li>
+<p><strong>Webserver Interactivity</strong>: The dual webserver setup for MQTT and OTA updates exemplifies the project&rsquo;s focus on interactivity and seamless user experience.</p>
+</li>
+<li>
+<p>The MQTT server allows for real-time interaction, while the OTA server provides a mechanism for seamless updates, enhancing the overall user experience</p>
+</li>
+<li>
+<p>This is currently configured to go to my MQTT broker at aask.services and enables us to trigger interruptable light shows using other triggers!</p>
+</li>
+<li>
+<p>We also can trigger the devices to pull updates over the network! (UNDER CONSTRUCTION, NOT FULLY FUNCTIONAL YET)</p>
+</li>
+</ul>
+<p>Stay tuned for a detailed walkthrough of the FTC Fancy Lights, where technology meets creativity! THANK YOU FOR STOPPING BY AND FOR YOUR GRACIOUS PROFESSIONALISM!</p>
+<p>-Amelia-</p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#skip-to-the-good-part-i-want-to-build-my-own">SKIP TO THE GOOD PART, I WANT TO BUILD MY OWN</a></li>
+    <li><a href="#where-do-i-get-the-code-ie-important-files">Where do I get the code IE Important Files?</a></li>
+    <li><a href="#what-do-the-colors-mean">WHAT DO THE COLORS MEAN!!!</a></li>
+    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#technical-highlights">Technical Highlights</a></li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=Ftc_fancy_lights&url=https%3a%2f%2faask.ltd%2fftc_fancy_lights%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=Ftc_fancy_lights: https%3a%2f%2faask.ltd%2fftc_fancy_lights%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=Ftc_fancy_lights&amp;body=Check%20out%20this%20site https%3a%2f%2faask.ltd%2fftc_fancy_lights%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="https://aask.ltd/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+
+<script src="https://aask.ltd/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            <div class="pb-2">
+                <a href="https://aask.ltd" title="">
+                    <img alt="Footer logo" src="https://aask.ltd/images/icon.png"
+                        height="40px" width="40px">
+                </a>
+            </div>
+            &copy; 2024  Aask. All rights reserved.
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div></footer><script src="https://aask.ltd/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://aask.ltd/js/contact.js"></script>
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

@@ -5,6 +5,7 @@
     <link>https://aask.ltd/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://aask.ltd/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://aask.ltd/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
