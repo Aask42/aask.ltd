@@ -13,8 +13,12 @@ Hey there [First Tech Challenge](https://firstinspires.org) enthusiasts! For the
 ### Inspiration
 
 I made these lights to give to the 9 Jackson Pollock League finalist for the 2024 FTC CENTERSTAGE season State Championship in Iowa City, Iowa. There are 10 in the set of nine infinity mirrors, and there are going be detailed build instructions and a build video posted at a later date I'm not committed to yet. 
+![alt text](/images/build_assembly_shot.png)
+
+### PLUS ULTRA!
 
 There are also FOUR custom "Pixel" shaped TOKENS that are being given to the 4 teams who advance to the next stage of the competition in Texas. These were given out to the winning teams at the same event mentioned above. If you received one of these tokens, make sure to check out the code on board as there is a special message to you from me!
+![Image of 4 hexagonal infinity mirrors on the awards table](/images/tokens.png)
 
 ### Heads up
 
