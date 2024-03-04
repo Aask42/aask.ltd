@@ -35,7 +35,7 @@ title = "Aask's Homepage"
     enable = true
     intro = "Hi, my name is"
     subtitle = "Aask Questions!"
-    content = "This is a place for me to keep track of my projects and make it a lot easier to share how and why I build the things I do. Check out some of my posts, share if you want, and let me know if you have any questions!"
+    content = "This is a place for me to keep track of my projects and make it a lot easier to share how and why I build the things I do. Check out some of my posts, share if you want, and let me know if you have any questions! </br></br></br> [PS if you're looking for the FTC Writeup click here](https://aask.ltd/ftc_fancy_lights) "
     image = "/images/me_working.png"
     [params.hero.bottomImage]
       enable= false
