@@ -6,35 +6,21 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Mar 2024 20:49:17 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2024 20:39:12 -0500</lastBuildDate>
     <atom:link href="https://aask.ltd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hell0_world</title>
+      <link>https://aask.ltd/hell0_world/</link>
+      <pubDate>Wed, 01 May 2024 20:39:12 -0500</pubDate>
+      <guid>https://aask.ltd/hell0_world/</guid>
+      <description>COMING SOON&#xA;AN ADVENTURE BETWEEN TWO MIDWEST SECDSM MEMBERS AS THEY DISSECT A TUYA WEATHER STATION.&#xA;THIS IS A PLACEHOLDER PAGE FOR OUR BSIDES/DEFCON WRITEUP AND WILL BE FILLED OUT IN THE COMING WEEKS.&#xA;COMING SOON</description>
+    </item>
     <item>
       <title>Ftc_fancy_lights</title>
       <link>https://aask.ltd/ftc_fancy_lights/</link>
       <pubDate>Fri, 01 Mar 2024 20:49:17 -0600</pubDate>
       <guid>https://aask.ltd/ftc_fancy_lights/</guid>
       <description>Illuminating Productivity: My Journey with FTC Fancy Lights Hey there First Tech Challenge enthusiasts! For the past month I&amp;rsquo;ve been hyperfocusing on building this special project for FTC Iowa/Nebraska&amp;rsquo;s Championship at the XTreme Arena in Coralville Iowa. Presenting: The &amp;ldquo;FTC Fancy Lights&amp;rdquo;! These aren&amp;rsquo;t just any ordinary lights; they&amp;rsquo;re a blend of art, technology, and a bit of magic. Let me take you through the captivating world of my 8-sided infinity mirror creation, where every reflection tells a story of innovation and creativity.</description>
-    </item>
-    <item>
-      <title>Barbot0_openscad</title>
-      <link>https://aask.ltd/posts/barbot0_openscad/</link>
-      <pubDate>Sun, 29 Oct 2023 10:15:24 -0500</pubDate>
-      <guid>https://aask.ltd/posts/barbot0_openscad/</guid>
-      <description>3d Models are just CODE right? </description>
-    </item>
-    <item>
-      <title>Barbot0_code</title>
-      <link>https://aask.ltd/posts/barbot0_code/</link>
-      <pubDate>Sun, 29 Oct 2023 10:09:21 -0500</pubDate>
-      <guid>https://aask.ltd/posts/barbot0_code/</guid>
-      <description>What&amp;rsquo;s a bar robot without code? In this writeup we will be exploring the world of how we coded Señor Drinknstein using a Raspberry Pi Pico, and some mosfets! We will discuss why we chose the bill of materials we did, and some of the challenges we faced with said BOM. If you see any code in here that you would like to use for yourself feel free to take advantage of the free code!</description>
-    </item>
-    <item>
-      <title>Barbot1_part_0 Writeup for Supercon 2023</title>
-      <link>https://aask.ltd/posts/barbot1_part_0/</link>
-      <pubDate>Sun, 29 Oct 2023 10:03:14 -0500</pubDate>
-      <guid>https://aask.ltd/posts/barbot1_part_0/</guid>
-      <description>Meet Señor Drinknstein Jr. (Junior) Placeholder for writeup of the second iteration of our barbot for the DC Shenanigans RentAnAssassin party in the Rain-man suite at Caesar&amp;rsquo;s Palace before DEF CON 31.&#xA;Outline Hardware upgrades Now with 100% more MOSFETS Now with 100% more PWM controller Code updates from last year MAJOR Ux upgrades Pulled back on Minimum Viable Product Photo Walkthru Let&amp;rsquo;s walk through some photos</description>
     </item>
     <item>
       <title>About</title>
@@ -49,20 +35,6 @@
       <pubDate>Fri, 27 Oct 2023 11:59:06 -0500</pubDate>
       <guid>https://aask.ltd/posts/medical_adapter/</guid>
       <description>Union Medico Autoinjector Adapter One of the things I have to do regularly to maintain my health is take an injeciton intramuscularly once a week. While many are okay just doing this free hand, and others go in to their doctor&amp;rsquo;s offices to get it done, I picked up a Union Medico autoinjector. It&amp;rsquo;s actually pretty cool, it holds a standard syringe and drops it in to the muscle at the same pressure every time.</description>
-    </item>
-    <item>
-      <title>Señor Plantnstein Lives!</title>
-      <link>https://aask.ltd/posts/barbot0_part3/</link>
-      <pubDate>Sun, 22 Oct 2023 16:51:58 -0500</pubDate>
-      <guid>https://aask.ltd/posts/barbot0_part3/</guid>
-      <description>Placeholder to talk about code changes made and upgrades made to the codebase for improvement of functionality</description>
-    </item>
-    <item>
-      <title>Drinkbot_part2</title>
-      <link>https://aask.ltd/posts/barbot0_part2/</link>
-      <pubDate>Sat, 21 Oct 2023 22:02:20 -0500</pubDate>
-      <guid>https://aask.ltd/posts/barbot0_part2/</guid>
-      <description>Part 2 - Señor Drinknstein In part two we finish the build and set off for DEF CON!&#xA;Talk about the issues with the log file&#xA;What better way to open the second post with some red white and blue eh? Had to put together a batch of pis with headers and got this glamor shot. CONTINUED HERE</description>
     </item>
     <item>
       <title>Drinkbot</title>
