@@ -6,8 +6,15 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 May 2024 15:29:04 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 24 Aug 2024 16:11:30 -0700</lastBuildDate>
     <atom:link href="https://aask.ltd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iwp</title>
+      <link>https://aask.ltd/iwp/</link>
+      <pubDate>Sat, 24 Aug 2024 16:11:30 -0700</pubDate>
+      <guid>https://aask.ltd/iwp/</guid>
+      <description>Welcome to the writeup for the Infinite Wifi Portals by Aask Labs at DEF CON 32! The journey to getting these mirrors designed, manufactured, coded, and out the door was a BLUR and this is meant to be a place to keep track of that.&#xA;If you just want the repository, here ya go! There are some recent updates that improve performance!&#xA;https://github.com/Aask42/DC32_Infinite_Wifi_Portal&#xA;Come back soon to check for updates to the build process and new updates to the badge to come for SuperCon 2024 in Pasadena California.</description>
+    </item>
     <item>
       <title>DEFCON_Coin_Challenge</title>
       <link>https://aask.ltd/posts/defcon_coin_challenge/</link>
