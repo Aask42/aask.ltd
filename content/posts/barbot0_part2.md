@@ -1,7 +1,7 @@
 +++
 title = 'Drinkbot_part2'
 date = 2023-10-21T22:02:20-05:00
-draft = true
+draft = false
 +++
 
 ## Part 2 - Señor Drinknstein

@@ -1,7 +1,7 @@
 +++
 title = 'Barbot1_part_0 Writeup for Supercon 2023'
 date = 2023-10-29T10:03:14-05:00
-draft = true
+draft = false
 +++
 
 ## Meet Señor Drinknstein Jr. (Junior)

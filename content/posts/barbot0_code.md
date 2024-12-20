@@ -1,7 +1,7 @@
 +++
 title = 'Barbot0_code'
 date = 2023-10-29T10:09:21-05:00
-draft = true
+draft = false
 +++
 
 ## What's a bar robot without code?
