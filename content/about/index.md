@@ -79,9 +79,27 @@ Here's the highlights I'll probably expand on over the years.
 
 Con | Years/Instances | Notes
 -|-|-
-DEFCON | 23-31 | NFO GOON 26-Present
-Hackaday Supercon | 2021, 2022, 2023 | Exhibitor of fun things
+CyberTractor Challenge | Current | President of the CyberTractor Challange 501(c)3
+DEFCON | 23-31 | NFO GOON 26-Present, Hardware Maker/Exhibitor, Contestant, etc…
+Lesbians Who Tech | 2023 | Speaker at 2 separate events
+LayerOne | 2023 | Contestant, solo 2nd place in Hardware CTF
+KernelCon | 2023 | Exhibitor and Contestant in the "Science Fair" - 3d printed silkscreen frames!
+Hackaday Supercon | 2019, 2022, 2023 | Exhibitor, Speaker, Contestant
+Corncon | 2022 | Speaker
+Purdue Boilermake | 2022 | Speaker
+SigPWNY Fall CTF | 2022 | Speaker & Recruiting
+CyberAuto Challenge | 2022, 2023 | Student Mentor
+CyberTruck Challenge | 2022, 2023 | Student Mentor
 Shmoocon | 2018 | Attendee
+BSides Iowa | 2022 | Attendee
+BSides Seattle | 2019 | Attendee
+BSides LV | 2016, 2017, 2019, 2022, 2023 | Attendee
+GrrCon | 2022 | Attendee
+Blackhat | 2019, 2022, 2023 | Attendee
+JDTech Con | 2022 | Internal event attendee
+Inside Bitcoins | 2015 | Attendee
+Grace Hopper Celebration | 2023 | Attendee & Recruiting
+Farm Progress Show | 2022 | Attendee & Pentesting
 
 
 ## Auxilary things!
