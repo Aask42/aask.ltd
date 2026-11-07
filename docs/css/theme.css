@@ -45,3 +45,10 @@ body *::selection {
     color: var(--text-color) !important;
     background-color: var(--primary-color) !important;
 }
+
+/* Links stay blue in dark mode: --primary-color resolves to white there,
+   which makes content links indistinguishable from body text. */
+.dark #single .page-content a,
+.dark #education .card .card-body .education-content a {
+    color: #4da3ff !important;
+}
