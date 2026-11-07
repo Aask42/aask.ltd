@@ -43,11 +43,6 @@ title = "Aask's Homepage"
     brandLogo = "/images/icon.png"
     disableSearch= true
 
-  [params.contact.formspree]
-    enable = true
-    formId = "https://fabform.io/f/r0fR7zX"
-    emailCaption = "Enter your email address"
-    messageCaption = "Enter your message here"
 
   # Shown in the home page
   brand = "AaskLabs"
@@ -88,7 +83,6 @@ title = "Aask's Homepage"
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
-  twitter="aask42"
   # gnusocial="*"
   # facebook="*"
   # weibo="*"
