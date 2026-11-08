@@ -26,6 +26,11 @@ BasicFirefly is a proposal (a proposal, not an RFC) for a small I2C module built
 
 I'll update this page as the project moves.
 
+## Downloads
+
+- [Slides from the talk (PDF)](/firefly/bye-bye-bye-clock-drift-slides.pdf) — *Bye Bye Bye (clock drift)*, my Hackers in SF talk.
+- [The full proposal document (PDF)](/firefly/basicfirefly-proposal.pdf) — the complete Smarter Clock Standard proposal this page summarizes.
+
 ## Get involved
 
 That's where I am and how I got here. And if you want to help me get to the next level, I'm open to work together! I need help, and while I could do this myself I don't want to do that to future Amelia.
